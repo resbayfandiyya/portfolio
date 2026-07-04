@@ -57,6 +57,13 @@ export default function Navbar() {
           ))}
 
           <a
+            href="#documents"
+            className="text-slate-300 hover:text-blue-400 transition"
+          >
+            Documents
+          </a>
+
+          <a
             href="/CV Resbay Fandiyya Gautama.pdf"
             className="bg-blue-600 hover:bg-blue-700 transition px-5 py-3 rounded-xl font-semibold"
           >
@@ -89,8 +96,16 @@ export default function Navbar() {
             </a>
           ))}
 
+          <a
+            href="#documents"
+            className="block px-8 py-4 text-slate-300 hover:bg-slate-800"
+          >
+            Documents
+          </a>
+
         </div>
       )}
     </header>
   );
 }
+
